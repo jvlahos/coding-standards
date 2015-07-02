@@ -22,11 +22,8 @@ Let these standards grow and change as your project grows and changes.
   
 <a name="principles"></a>
 ## Code Principles
-* Write readable, consistent, and understandable code.
-* Every line of code should appear to be written by a single person.
-* Enforce the agreed-upon style. Write all code with intent. 
-* Follow the rules when it makes sense — break them when it doesn't.
-* Review code with fellow contributors and peers.
+* Write readable and understandable code.
+* Enforce consistency.
 
 <a name="html"></a>
 ## HTML
@@ -34,14 +31,16 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 
 <a name="html-syntax"></a>
 #### Syntax
-* **Indent style:** Spaces
-* **Indent size:** 2
-* **Quotes:** Double quotes
+* Use a consistent indent style. (Default: Spaces)
+* Use a consistent indent size. (Default: 2)
+* Use double or single quotes consistently (Default: Double)
 * Indent nested elements.
+* Close all tags, even when optional.
+  * e.g. `</li>` or `</body>`
 * Don't include a trailing slash in self-closing elements.
-* Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
+  * e.g. `<img src="img/src.png">`
 * Use _end-of_ comments after the closing tag of a multi-line code block.
-  * e.g., `<!--eo .class-name-->`
+  * e.g., `</div> <!-- eo .class-name -->`
 
 **Example:**
 ```html 
@@ -56,8 +55,8 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
     <div class="mod">
       <div class="mod-item mod-item-1">
         Fun!
-      </div><!--eo .mod-item-1-->
-    </div><!--eo .mod-->
+      </div><!-- eo .mod-item-1 -->
+    </div><!-- eo .mod -->
   </body>
 </html>
 
