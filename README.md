@@ -90,25 +90,23 @@ HTML attributes should come in this particular order for easier reading of code.
 <a name="css-syntax"></a>
 #### Syntax
 
-* **Indent style:** Spaces
-* **Indent size:** 2
-* **Quotes:** Double
-* **Hex format:** Lowercase; shorthand when possible 
-  * e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`
-* **Leading Zeroes:** Yes
-  * e.g., `0.5px`, not `.5px`
-* **Units on Zero-Values:** No
-  * e.g., `margin: 0`, not `margin: 0px`
-
+* Indent style: Spaces
+* Indent size: 2
 * Use one discrete selector per line in multi-selector rulesets.
 * Include a single space before the opening brace of a ruleset.
 * Include one declaration per line in a declaration block.
 * Use one level of indentation for each declaration.
 * Include a single space after the colon of a declaration.
-* Use lowercase and shorthand hex values, e.g., #aaa.
-* Use double or single quotes consistently. e.g., content: "".
-* Quote attribute values in selectors, e.g., input[type="checkbox"].
+* Use lowercase and shorthand hex values.
+  * e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`
+* Use double quotes consistently.
+  *e.g., `content: " ";`
+* Quote attribute values in selectors.
+  * e.g., `input[type="checkbox"]`
+* Prefix property values with a leading zero.
+  * e.g., `0.5px`, not `.5px`
 * Where allowed, avoid specifying units for zero-values, e.g., margin: 0.
+  * e.g., `margin: 0`, not `margin: 0px`
 * Include a space after each comma in comma-separated property or function values.
 * Include a semi-colon at the end of the last declaration in a declaration block.
 * Place the closing brace of a ruleset in the same column as the first character of the ruleset.
@@ -123,7 +121,7 @@ HTML attributes should come in this particular order for easier reading of code.
   color: #bada55;
 }
 
-.selector-three {
+.selector-three[type="checkbox"] {
 	letter-spacing: 0.5px;
 	margin: 0;
 }
@@ -179,8 +177,8 @@ Comments above are for demonstration only. Within each chunk list declarations i
 ## Nesting
 Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.
 
-* At most, aim for two levels.
-* Nest [psuedo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) and media queries at the end of the declaration block, separated from other properties by an empty line.
+* At most, aim for two levels of specificity.
+* Nest psuedo-classes and media queries at the end of the declaration block, separated from other properties by an empty line.
 
 
 <a name="css-comments"></a>
