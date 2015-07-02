@@ -8,7 +8,7 @@ Let these standards grow and change as your project grows and changes.
 * [HTML](#html)
   * [Syntax](#html-syntax)
   * [Attribute Order](#html-attr-order)
-* CSS / SCSS(#css-scss)
+* [CSS / SCSS](#css-scss)
   * [Syntax](#css-syntax)
   * [Declaration Order](#css-declaration-order)
   * [Comments](#css-comments)
@@ -84,7 +84,7 @@ HTML attributes should come in this particular order for easier reading of code.
 <img src="..." alt="...">
 ```
 
-<a name="css"></a>
+<a name="css-scss"></a>
 ## CSS / SCSS
 
 <a name="css-syntax"></a>
