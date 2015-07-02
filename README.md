@@ -257,8 +257,8 @@ Use [Autoprefixer](https://github.com/postcss/autoprefixer) to post-process your
 | `l-[layout]` | layout |
 | `t-[theme]` | theme or trump |
 | `u-[utility]` | utility |
-| `is-[state]` | state |
-| `js-[state]` | for Javascript |
+| `is-[state]` | states (commonly JS-based) |
+| `js-[selector]` | for JS selectors |
 
 #### Abbreviations
 
