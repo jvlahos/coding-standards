@@ -1,6 +1,9 @@
 # Code Guide
+Code guidelines  help write more consistent code across a project or team. 
+Use these guidelines as-is, or fork them and modify them to your liking.
+Add these files to your repository for all product contributors to see and reference. 
+Let these guidelines grow and change as the project grows and changes.
 
-* [About this Code Guide](#about)
 * [Principles](#principles)
 * Code Conventions
   * Editor Helpers & Preferences
@@ -20,13 +23,6 @@
     * Naming & Abbreviation Patterns
     * Mixin and @extend usage
   
-<a name="about"></a>
-## About this Code Guide
-
-Code guidelines  help write more consistent code across a project or team. 
-Use these guidelines as-is, or fork them and modify them to your liking.
-Add these files to your repository for all product contributors to see and reference. 
-Let these guidelines grow and change as the project grows and changes.
 
 <a name="principles"></a>
 ## Code Principles
