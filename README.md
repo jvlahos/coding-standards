@@ -247,5 +247,39 @@ Comment your code to describe components, how they work, their limitations, and 
 Use [Autoprefixer](https://github.com/postcss/autoprefixer) to post-process your CSS with the necessary vendor prefixes.
 
 
+## Naming and Abbreviation Patterns
 
+#### Namespaces
 
+* `l-[layout]`
+* `t-[theme]`
+
+#### Abbreviations
+
+| `mod` | module |
+| `txt` | text |
+| `h` | headline or heading |
+| `tz` | tease |
+| `deck` | deckhead or subhead |
+| `btn` | button |
+| `hdr` | header |
+| `ftr` | footer |
+| `hgroup` | headline group |
+| `meta` | meta description |
+| `nav` | navigation |
+| `img` | image |
+| `art` | image, illustration, etc. |
+| `list` | list |
+| `item` | item |
+| `trigger` | a dropdown trigger, for example |
+| `content` | content |
+| `bd` | body |
+| `top` | top |
+| `btm` | bottom |
+| `horiz` | horizontal |
+| `vert` | vertical |
+| `xs` | extra small |
+| `sm` | small |
+| `md` | medium |
+| `lg` | large |
+| `xl` | extra large |
