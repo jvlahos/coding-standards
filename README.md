@@ -15,8 +15,8 @@ Let these standards grow and change as your project grows and changes.
   * Shorthand Notations
   * Nesting
   * Comments
-  * Naming & Abbreviation Patterns
   * Mixin and @extend usage
+* Naming & Abbreviation Patterns
 * File & Folder Organization
 * Editor Helpers & Preferences
     * .editorconfig
