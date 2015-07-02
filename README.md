@@ -19,7 +19,7 @@ Let these standards grow and change as your project grows and changes.
 * Naming & Abbreviation Patterns
 * File & Folder Organization
 * Editor Helpers & Preferences
-    * .editorconfig
+    * EditorConfig
     * Linters (scss-lint)
   
 <a name="principles"></a>
