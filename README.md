@@ -42,7 +42,7 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 * Indent nested elements.
 * Don't include a trailing slash in self-closing elements.
 * Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
-* Use _end-of_ comments after the closing tag of multi-line components
+* Use _end-of_ comments after the closing tag of a multi-line code block.
   * e.g., `<!--eo .class-name-->`
 
 **Example:**
