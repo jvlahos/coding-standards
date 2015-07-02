@@ -22,7 +22,7 @@ Let these standards grow and change as your project grows and changes.
   
 <a name="principles"></a>
 ## Code Principles
-* Write readable, understandable, consistent code.
+Write readable, understandable, consistent code appropriate to the product and team.
 
 <a name="html"></a>
 ## HTML
