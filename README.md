@@ -167,6 +167,14 @@ Declarations are to be consistently ordered based on a simple principle:
 
 Comments above are for demonstration only. Within each chunk list declarations in order of importance, stacking related rules (e.g., width and height, margin and padding).
 
+<a name="css-nesting"></a>
+## Nesting
+Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.
+
+* At most, aim for two levels.
+* Nest [psuedo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) and media queries at the end of the declaration block, separated from other properties by an empty line.
+
+
 <a name="css-comments"></a>
 ## Comments
 
@@ -178,7 +186,7 @@ Well commented code is extremely important. Take time to describe components, ho
 
 **Example:**
 
-```css
+```scss
 /* ==========================================================================
    Section comment block
    ========================================================================== */
@@ -203,7 +211,7 @@ Well commented code is extremely important. Take time to describe components, ho
  *   indented by 2 spaces.
  */
 
-/* Basic comment */
+// Basic comment
 ```
 
 <a name="extends-and-mixins"></a>
@@ -211,7 +219,6 @@ Well commented code is extremely important. Take time to describe components, ho
 
 * Always place `@extend` statements on the first line of a declaration block.
 * Place `@include` statements at a sensible spot in the relevant ruleset group.
-* Nest [psuedo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) and media queries at the end of the declaration block, separated from other properties with an empty new line.
 
 ##### Example:
 
@@ -233,14 +240,6 @@ Well commented code is extremely important. Take time to describe components, ho
     margin: 10px;
     padding: 10px;
     border: 10px solid #333;
-    
-    &:last-child {
-    	display: none;
-    }
-    
-    @media only screen and (min-width : 320px) {
-      position: relative;
-    }
 }
 ```
 
