@@ -92,19 +92,27 @@ HTML attributes should come in this particular order for easier reading of code.
 
 * **Indent style:** Spaces
 * **Indent size:** 2
-* **Quotes:** Double quotes
+* **Quotes:** Double
 * **Hex format:** Lowercase; shorthand when possible 
   * e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`
 * **Leading Zeroes:** Yes
   * e.g., `0.5px`, not `.5px`
 * **Units on Zero-Values:** No
   * e.g., `margin: 0`, not `margin: 0px`
-* Include a blank line before and after rulesets.
-* When grouping selectors, keep individual selectors to a single line.
-* Add a single space before brackets (`{`), after colons (`:`), and after each comma (`,`) in comma-separated properties and values.
+
+* Use one discrete selector per line in multi-selector rulesets.
+* Include a single space before the opening brace of a ruleset.
+* Include one declaration per line in a declaration block.
 * Use one level of indentation for each declaration.
-* Remove end-of-line whitespace. Configure your editor to do so automatically, or "show invisibles" and do so manually.
-* Place the closing `}` of a ruleset in the same column as the first character of the ruleset
+* Include a single space after the colon of a declaration.
+* Use lowercase and shorthand hex values, e.g., #aaa.
+* Use double or single quotes consistently. e.g., content: "".
+* Quote attribute values in selectors, e.g., input[type="checkbox"].
+* Where allowed, avoid specifying units for zero-values, e.g., margin: 0.
+* Include a space after each comma in comma-separated property or function values.
+* Include a semi-colon at the end of the last declaration in a declaration block.
+* Place the closing brace of a ruleset in the same column as the first character of the ruleset.
+* Separate each ruleset by a blank line.
 
 **Example:**
 
