@@ -256,6 +256,8 @@ Use [Autoprefixer](https://github.com/postcss/autoprefixer) to post-process your
 
 #### Abbreviations
 
+| Abbreviation | Meaning |
+| ------------- | ----------- |
 | `mod` | module |
 | `txt` | text |
 | `h` | headline or heading |
