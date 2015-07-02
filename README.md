@@ -89,8 +89,8 @@ HTML attributes should come in this particular order for easier reading of code.
 <a name="css-syntax"></a>
 #### Syntax
 
-* Indent style: Spaces
-* Indent size: 2
+* Use a consistent indent style. (Default: Spaces)
+* Use a consistent indent size. (Default: 2)
 * Use one discrete selector per line in multi-selector rulesets.
 * Include a single space before the opening brace of a ruleset.
 * Include one declaration per line in a declaration block.
@@ -140,7 +140,6 @@ Declarations are to be consistently ordered based on a simple principle:
 
 ```css
 .selector {
-    /* Positioning */
     position: absolute;
     z-index: 10;
     top: 0;
@@ -148,7 +147,6 @@ Declarations are to be consistently ordered based on a simple principle:
     bottom: 0;
     left: 0;
 
-    /* Display & Box Model */
     display: inline-block;
     overflow: hidden;
     box-sizing: border-box;
@@ -158,19 +156,14 @@ Declarations are to be consistently ordered based on a simple principle:
     padding: 10px;
     border: 10px solid #333;
 
-    /* Typography */
     font-family: sans-serif;
     font-size: 16px;
     text-align: right;
     color: #fff;
 
-    /* Everything Else */
     background: #000;
-    feelings: optimistic;
 }
 ```
-
-Comments above are for demonstration only. Within each chunk list declarations in order of importance, stacking related rules (e.g., width and height, margin and padding).
 
 <a name="css-nesting"></a>
 ## Nesting
@@ -183,11 +176,11 @@ Avoid unnecessary nesting. Just because you can nest, doesn't mean you always sh
 <a name="css-comments"></a>
 ## Comments
 
-Well commented code is extremely important. Take time to describe components, how they work, their limitations, and the way they are constructed.
+Comment your code to describe components, how they work, their limitations, and the way they are constructed.
 
 * Place comments on a new line above subject.
-* Make liberal use of comments to break CSS code into discrete sections.
-* Comment style should be simple and consistent within a single code base.
+* Use comments to break code into discrete sections.
+* Use a simple, consistent comment style.
 
 **Example:**
 
@@ -222,8 +215,8 @@ Well commented code is extremely important. Take time to describe components, ho
 <a name="extends-and-mixins"></a>
 ## @extends and mixins
 
-* Always place `@extend` statements on the first line of a declaration block.
-* Place `@include` statements at a sensible spot in the relevant ruleset group.
+* Place `@extend` statements on the first line of a declaration block.
+* Place `@include` statements at a sensible position in a relevant group of rulesets.
 
 ##### Example:
 
