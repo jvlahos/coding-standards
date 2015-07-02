@@ -5,9 +5,9 @@ Copy these standards to your project's repository as `coding-standards.md` for a
 Let these standards grow and change as your project grows and changes.
 
 * [Principles](#principles)
-* HTML
-  * Syntax
-  * Attribute Order
+* [HTML](#html)
+  * [Syntax](#html-syntax)
+  * [Attribute Order](#html-attr-order)
 * CSS
   * Philosophy
   * Syntax
@@ -30,9 +30,11 @@ Let these standards grow and change as your project grows and changes.
 * Follow the rules when it makes sense — break them when it doesn't.
 * Review code with fellow contributors and peers.
 
+<a name="html"></a>
 ## HTML
 Strive to maintain HTML standards and semantics, but not at the expense of practicality. Use the least amount of markup with the fewest intricacies whenever possible.
 
+<a name="html-syntax"></a>
 #### Syntax
 * Indent style: Spaces
 * Indent size: 2
@@ -54,7 +56,7 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 </html>
 
 ```
-
+<a name="html-attr-order"></a>
 #### Attribute Order
 HTML attributes should come in this particular order for easier reading of code. Most importantly, `class` should be first.
 
