@@ -1,4 +1,4 @@
-# Code Guide
+# Coding Standards
 Code guidelines  help write more consistent code across a project or team. 
 Use these guidelines as-is, or fork them and modify them to your liking.
 Copy these guidelines to your project's repository for all project contributors to see and reference. Utilize and customize the supplied EditorConfig and linter files based upon these guidelines.
