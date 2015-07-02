@@ -14,7 +14,7 @@ Let these standards grow and change as your project grows and changes.
   * [Comments](#css-comments)
   * [@extends and mixins](#extends-and-mixins)
   * [Vendor prefixes](#vendor-prefixes)
-* Naming & Abbreviation Patterns
+* [Naming & Abbreviation Patterns](#naming-abbreviations)
 * File & Folder Organization
 * Editor Helpers & Preferences
     * EditorConfig
@@ -247,41 +247,49 @@ Comment your code to describe components, how they work, their limitations, and 
 Use [Autoprefixer](https://github.com/postcss/autoprefixer) to post-process your CSS with the necessary vendor prefixes.
 
 
+<a name="naming-abbreviations"></a>
 ## Naming and Abbreviation Patterns
 
 #### Namespaces
 
-* `l-[layout]`
-* `t-[theme]`
+| Namespace | Meaning |
+| ------------- | ----------- |
+| `l-[layout]` | layout |
+| `t-[theme]` | theme or trump |
+| `u-[utility]` | utility |
+| `is-[state]` | state |
+| `js-[state]` | for Javascript |
 
 #### Abbreviations
 
 | Abbreviation | Meaning |
 | ------------- | ----------- |
-| `mod` | module |
-| `txt` | text |
-| `h` | headline or heading |
-| `tz` | tease |
-| `deck` | deckhead or subhead |
-| `btn` | button |
-| `hdr` | header |
-| `ftr` | footer |
-| `hgroup` | headline group |
-| `meta` | meta description |
-| `nav` | navigation |
-| `img` | image |
 | `art` | image, illustration, etc. |
-| `list` | list |
-| `item` | item |
-| `trigger` | a dropdown trigger, for example |
-| `content` | content |
 | `bd` | body |
-| `top` | top |
+| `btn` | button |
 | `btm` | bottom |
+| `content` | content |
+| `deck` | deckhead or subhead |
+| `ftr` | footer |
+| `h` | headline or heading |
+| `hdr` | header |
+| `hgroup` | headline group |
 | `horiz` | horizontal |
-| `vert` | vertical |
-| `xs` | extra small |
-| `sm` | small |
-| `md` | medium |
+| `img` | image |
+| `item` | item |
 | `lg` | large |
+| `list` | list |
+| `md` | medium |
+| `meta` | meta description |
+| `mod` | module |
+| `nav` | navigation |
+| `pg` | page |
+| `sm` | small |
+| `top` | top |
+| `trigger` | a dropdown trigger, for example |
+| `txt` | text |
+| `tz` | tease |
+| `vert` | vertical |
 | `xl` | extra large |
+| `xs` | extra small |
+
