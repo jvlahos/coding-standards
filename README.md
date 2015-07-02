@@ -1,8 +1,8 @@
 # Code Guide
 Code guidelines  help write more consistent code across a project or team. 
 Use these guidelines as-is, or fork them and modify them to your liking.
-Add these files to your repository for all product contributors to see and reference. 
-Let these guidelines grow and change as the project grows and changes.
+Copy these guidelines to your project's repository for all product contributors to see and reference. Utilize and customize the supplied EditorConfig and linter files.
+Let these guidelines grow and change as your project grows and changes.
 
 * [Principles](#principles)
 * Code Conventions
