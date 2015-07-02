@@ -1,15 +1,11 @@
 # Coding Standards
-Code guidelines  help write more consistent code across a project or team. 
-Use these guidelines as-is, or fork them and modify them to your liking.
-Copy these guidelines to your project's repository as `coding-standards.md` for all project contributors to reference. Utilize and customize the supplied EditorConfig and linter files based upon these guidelines.
-Let these guidelines grow and change as your project grows and changes.
+Coding standards help write more consistent code across a project or team. 
+Use these standards as-is, or fork them and modify them to your liking.
+Copy these standards to your project's repository as `coding-standards.md` for all project contributors to reference. Utilize and customize the supplied EditorConfig and linter files based upon these guidelines.
+Let these standards grow and change as your project grows and changes.
 
 * [Principles](#principles)
-* Code Conventions
-  * Editor Helpers & Preferences
-    * .editorconfig
-    * Linters (scss-lint)
-  * File & Folder Organization
+* Code Standards
   * HTML
     * Principles
     * Syntax
@@ -22,8 +18,11 @@ Let these guidelines grow and change as your project grows and changes.
     * Comments
     * Naming & Abbreviation Patterns
     * Mixin and @extend usage
+  * File & Folder Organization
+  * Editor Helpers & Preferences
+    * .editorconfig
+    * Linters (scss-lint)
   
-
 <a name="principles"></a>
 ## Code Principles
 * Every line of code should appear to be written by a single person.
