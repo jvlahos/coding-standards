@@ -42,6 +42,8 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 * Indent nested elements.
 * Don't include a trailing slash in self-closing elements.
 * Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
+* Use _end-of_ comments after the closing tag of multi-line components
+  * e.g., `<!--eo .class-name-->`
 
 **Example:**
 ```html 
@@ -53,6 +55,11 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
   <body>
     <img src="images/company-logo.png" alt="Company">
     <h1 class="hello-world">Hello, world!</h1>
+    <div class="mod">
+      <div class="mod-item mod-item-1">
+        Fun!
+      </div><!--eo .mod-item-1-->
+    </div><!--eo .mod-->
   </body>
 </html>
 
@@ -88,11 +95,12 @@ HTML attributes should come in this particular order for easier reading of code.
 * **Indent style:** Spaces
 * **Indent size:** 2
 * **Quotes:** Double quotes
-* **Hex format:**** Lowercase, shorthand where available (e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`)
+* **Hex format:** Lowercase; shorthand when possible 
+  * e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`
 * **Leading Zeroes:** Yes
   * e.g., `0.5px`, not `.5px`
 * **Units on Zero-Values:** No
-  * e.g., `margin: 0`, not `margin: 0px`)
+  * e.g., `margin: 0`, not `margin: 0px`
 * Include a blank line before and after rulesets.
 * When grouping selectors, keep individual selectors to a single line.
 * Add a single space before brackets (`{`), after colons (`:`), and after each comma (`,`) in comma-separated properties and values.
@@ -161,7 +169,7 @@ Declarations are to be consistently ordered based on a simple principle:
 
 Comments above are for demonstration only. Within each chunk list declarations in order of importance, stacking related rules (e.g., width and height, margin and padding).
 
-<a name="comments"></a>
+<a name="css-comments"></a>
 ## Comments
 
 Well commented code is extremely important. Take time to describe components, how they work, their limitations, and the way they are constructed.
