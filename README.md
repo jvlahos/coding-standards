@@ -39,7 +39,7 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 * Indent style: Spaces
 * Indent size: 2
 * Quotes: Double quotes
-* Indent nested elements once.
+* Indent nested elements.
 * Don't include a trailing slash in self-closing elements.
 * Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
 
