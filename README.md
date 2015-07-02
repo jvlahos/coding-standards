@@ -36,9 +36,9 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 
 <a name="html-syntax"></a>
 #### Syntax
-* Indent style: Spaces
-* Indent size: 2
-* Quotes: Double quotes
+* **Indent style:** Spaces
+* **Indent size:** 2
+* **Quotes:** Double quotes
 * Indent nested elements.
 * Don't include a trailing slash in self-closing elements.
 * Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
@@ -85,37 +85,37 @@ HTML attributes should come in this particular order for easier reading of code.
 <a name="css-syntax"></a>
 #### Syntax
 
-* Indent style: Spaces
-* Indent size: 2
-* Quotes: Double quotes
-* Hex Values: Lowercase, shorthand where available (e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`)
-* Leading Zeroes: Yes (e.g., `0.5px`, not `.5px`)
-* Units on Zero-Values: No (e.g., `margin: 0`, not `margin: 0px`)
-* Include a single space before a `{`, after a `:`, and after each `,` in comma-separated properties and values.
-* When grouping selectors, keep individual selectors to a single line.
-* Use one level of indentation for each declaration.
-
-* Remove end-of-line whitespace. Configure your editor to do so automatically, or "show invisibles" and do so manually.
-* Quote attribute values in selectors: `input[type="checkbox"]`
-* Avoid specifying units for zero-values: `margin: 0;`
-* Place the closing `}` of a ruleset in the same column as the first character of the ruleset
+* **Indent style:** Spaces
+* **Indent size:** 2
+* **Quotes:** Double quotes
+* **Hex format:**** Lowercase, shorthand where available (e.g., `#fff` and `#bada55`, not `#ffffff` and `#BADA55`)
+* **Leading Zeroes:** Yes
+  * e.g., `0.5px`, not `.5px`
+* **Units on Zero-Values:** No
+  * e.g., `margin: 0`, not `margin: 0px`)
 * Include a blank line before and after rulesets.
+* When grouping selectors, keep individual selectors to a single line.
+* Add a single space before brackets (`{`), after colons (`:`), and after each comma (`,`) in comma-separated properties and values.
+* Use one level of indentation for each declaration.
+* Remove end-of-line whitespace. Configure your editor to do so automatically, or "show invisibles" and do so manually.
+* Place the closing `}` of a ruleset in the same column as the first character of the ruleset
 
-##### Example:
+**Example:**
 
 ```css
-.selectorOne,
-.selectorTwo {
-	position: absolute;
-	top: 0;
+.selector-one,
+.selector-two {
+  background-image: url("img/background-image.png");
+  color: #bada55;
 }
-.selectorThree {
-	color: #ccc;
+
+.selector-three {
+	letter-spacing: 0.5px;
 	margin: 0;
 }
 ```
 
-<a name="declaration-order"></a>
+<a name="css-declaration-order"></a>
 ## Declaration Order
 
 Declarations are to be consistently ordered based on a simple principle:
