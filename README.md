@@ -63,7 +63,7 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 ```
 <a name="html-attr-order"></a>
 #### Attribute Order
-HTML attributes should come in this particular order for easier reading of code. Most importantly, `class` should be first.
+Write HTML attributes in a consistent order. Classes should be first.
 
 * `class`
 * `id`, `name`
@@ -167,9 +167,9 @@ Declarations are to be consistently ordered based on a simple principle:
 
 <a name="css-nesting"></a>
 ## Nesting
-Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.
+Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should.
 
-* At most, aim for two levels of specificity.
+* At most, aim for no more than two levels of specificity.
 * Nest psuedo-classes and media queries at the end of the declaration block, separated from other properties by an empty line.
 
 
