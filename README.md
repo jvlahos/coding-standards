@@ -24,10 +24,11 @@ Let these standards grow and change as your project grows and changes.
   
 <a name="principles"></a>
 ## Code Principles
+* Write readable, consistent, and understandable code.
 * Every line of code should appear to be written by a single person.
-* Enforce the agreed-upon style. 
-* Follow the rules when it makes sense — break them when it doesn't. Write all code with intent.
-* Write readable and understandable code.
+* Enforce the agreed-upon style. Write all code with intent. 
+* Follow the rules when it makes sense — break them when it doesn't.
+* Review code with fellow contributors and peers.
 
 
 ## HTML
